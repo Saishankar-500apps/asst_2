@@ -15,7 +15,7 @@ jobs:
       run: |
             pip install linkchecker
             linkchecker https://infinity.500apps.com/ninjacontent > linkchecker_result.txt
-            cat linkchecker_reult.txt
+            cat linkchecker_result.txt
     - uses: jakejarvis/s3-sync-action@master
      
       with:

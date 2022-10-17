@@ -1,4 +1,4 @@
-name: Uploading linkchecker result to S3
+name: Uploading the linkchecker result to S3
 
 on:
   push:
